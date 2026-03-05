@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+:root {
+  --text-gradient-start: #0f172a;
+  --text-gradient-end: #64748b;
+}
+
+[data-theme='dark'], [data-theme='midnight'], [data-theme='blue'], [data-theme='pink'] {
+  --text-gradient-start: #ffffff;
+  --text-gradient-end: rgba(255, 255, 255, 0.4);
+}
+
+[data-theme='eyeSaving'] {
+  --text-gradient-start: #586e75;
+  --text-gradient-end: #93a1a1;
+}
